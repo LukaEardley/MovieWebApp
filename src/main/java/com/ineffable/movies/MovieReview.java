@@ -15,4 +15,8 @@ public class MovieReview {
     @Id
     private ObjectId _id;
     private String body;
+
+    public MovieReview(String body) {//Constructor
+        this.body = body;
+    }
 }
